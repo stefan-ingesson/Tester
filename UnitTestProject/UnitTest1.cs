@@ -18,16 +18,19 @@ namespace UnitTestProject
             //var name = user.Name;
             
           Users t = new Users();
+          t.Name = "Abdullah";
+          t.PassWord = "Moreno";
           var name = t.Name;
           var password = t.PassWord;
           Assert.IsTrue("Abdullah" == name && "Moreno" == password);
-
         }
 
         [TestMethod]
         public void Control_That_Name_And_Password_Is_Viable_Return_False()
         {
             Users t = new Users();
+            t.Name = "Abdullah";
+            t.PassWord = "Moreno";
             var name = t.Name;
             var password = t.PassWord;
             Assert.IsFalse("Fakename" == name && "FakeLastName" == password);

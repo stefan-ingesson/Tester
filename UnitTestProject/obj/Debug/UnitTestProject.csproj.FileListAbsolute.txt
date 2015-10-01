@@ -1,0 +1,7 @@
+E:\Skolarbete\Processtyrning och ehandel\tester login\Tester\UnitTestProject\bin\Debug\UnitTestProject.dll
+E:\Skolarbete\Processtyrning och ehandel\tester login\Tester\UnitTestProject\bin\Debug\UnitTestProject.pdb
+E:\Skolarbete\Processtyrning och ehandel\tester login\Tester\UnitTestProject\bin\Debug\Tester.exe
+E:\Skolarbete\Processtyrning och ehandel\tester login\Tester\UnitTestProject\bin\Debug\Tester.pdb
+E:\Skolarbete\Processtyrning och ehandel\tester login\Tester\UnitTestProject\obj\Debug\UnitTestProject.csprojResolveAssemblyReference.cache
+E:\Skolarbete\Processtyrning och ehandel\tester login\Tester\UnitTestProject\obj\Debug\UnitTestProject.dll
+E:\Skolarbete\Processtyrning och ehandel\tester login\Tester\UnitTestProject\obj\Debug\UnitTestProject.pdb

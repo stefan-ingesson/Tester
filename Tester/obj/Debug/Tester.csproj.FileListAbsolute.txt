@@ -1,0 +1,6 @@
+E:\Skolarbete\Processtyrning och ehandel\tester login\Tester\Tester\bin\Debug\Tester.exe.config
+E:\Skolarbete\Processtyrning och ehandel\tester login\Tester\Tester\bin\Debug\Tester.exe
+E:\Skolarbete\Processtyrning och ehandel\tester login\Tester\Tester\bin\Debug\Tester.pdb
+E:\Skolarbete\Processtyrning och ehandel\tester login\Tester\Tester\obj\Debug\Tester.exe
+E:\Skolarbete\Processtyrning och ehandel\tester login\Tester\Tester\obj\Debug\Tester.pdb
+E:\Skolarbete\Processtyrning och ehandel\tester login\Tester\Tester\obj\Debug\Tester.csprojResolveAssemblyReference.cache

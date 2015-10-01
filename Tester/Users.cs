@@ -27,6 +27,22 @@ namespace Tester
         }
 
 
+       public string Password(int length)
+       {
+           char[] charArr = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz".ToCharArray();
+           string randomString = string.Empty;
+           Random objRandom = new Random();
+           for (int i = 0; i < length; i++)
+           {
+               //Don't Allow Repetation of Characters
+               int x = objRandom.Next(1, charArr.Length);
+               if (!randomString.Contains(charArr.GetValue(x).ToString()))
+                   randomString += charArr.GetValue(x);
+               else
+                   i--;
+           }
+           return randomString;
+       }
 
 
         #region Gammalt skit

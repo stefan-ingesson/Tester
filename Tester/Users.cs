@@ -12,10 +12,13 @@ namespace Tester
         public string PassWord { get; set; }
 
 
-       public void Add_User()
+
+       //Prova lägg till string Name som parameter
+       public string Add_User(string Name)
         {
             List<Users> user = new List<Users>();
             //user.Add(new Users() { Name = "Rofl", PassWord = "Copter" });
+
             if (Name.All(char.IsLetterOrDigit))
             {
                 user.Add(new Users());
@@ -24,6 +27,7 @@ namespace Tester
             {
                 throw new FormatException();
             }
+            return Name;
         }
 
 
@@ -44,6 +48,14 @@ namespace Tester
            return randomString;
        }
 
+
+       public void ValidPassword(string Password)
+       {
+           if (Password.Length < 7 || (!System.Text.RegularExpressions.Regex.IsMatch(Password, "^[a-zA-Z0-9!@#$*%]")))
+           {
+               throw new Exception();
+           }
+       }
 
         #region Gammalt skit
         //Första test
